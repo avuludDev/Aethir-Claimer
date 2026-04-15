@@ -1,0 +1,30 @@
+{
+  "name": "lens-sim",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i && node main.js"
+  },
+  "author": "sim",
+  "license": "ISC",
+  "dependencies": {
+    "@ensdomains/address-encoder": "^0.2.21",
+    "@ensdomains/eth-ens-namehash": "^2.0.15",
+    "axios": "^1.6.7",
+    "crypto-js": "4.1.1",
+    "ethers": "^5.7.2",
+    "ethjs-ens": "^2.0.1",
+    "ethjs-provider-http": "^0.1.6",
+    "fake-useragent": "^1.0.1",
+    "graphql-request": "^6.1.0",
+    "https-proxy-agent": "^7.0.4",
+    "node-fetch": "^3.3.2",
+    "read": "^3.0.1",
+    "user-agents": "^1.1.263",
+    "useragent": "^2.3.0",
+    "web3": "1.10.0",
+    "winston": "^3.12.0"
+  }
+}
